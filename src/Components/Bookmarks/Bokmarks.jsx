@@ -1,10 +1,10 @@
 
-const Bokmarks = () => {
+const Bookmarks = () => {
     return (
-        <div>
-            
+        <div className="w-1/3">
+            bookmarked
         </div>
     );
 };
 
-export default Bokmarks;
+export default Bookmarks;

@@ -1,10 +1,14 @@
 import PropTypes from 'prop-types';
 
 const Blog = ({blog}) => {
-    console.log(blog);
+
+    const {id , cover , title, author , author_img ,
+         posted_date , reading_time , hashtags} = blog
+    
     return (
-        <div>
-            
+        <div className=''>
+            <img src={cover} alt="" />
+           <h3>{title}</h3>
         </div>
     );
 };
