@@ -20,7 +20,7 @@ function App() {
         <Header></Header>
       </div>
 
-      <main className="max-w-6xl md:flex space-x-12 container mx-auto">
+      <main className="max-w-7xl md:flex space-x-20 container mx-auto">
 
         <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
         <Bookmarks bookmarks={bookmarks}></Bookmarks>
