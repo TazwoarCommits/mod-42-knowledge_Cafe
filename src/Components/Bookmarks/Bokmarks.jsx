@@ -5,9 +5,9 @@ const Bookmarks = ({bookmarks}) => {
   // console.log(bookmarks)
     return (
 
-        <div className="">
-          <p>Bookmarked : {bookmarks.length}</p>
-          <div className="bg-stone-300 py-8 px-2 my-4 rounded-xl">
+        <div className="bg-stone-300 py-8 px-2 my-4 rounded-xl">
+          <p className="text-4xl">Bookmarked : {bookmarks.length}</p>
+          <div>
           {
             bookmarks.map(bookmark => <Bookmark key={bookmark.id} bookmark={bookmark}></Bookmark>)
           }

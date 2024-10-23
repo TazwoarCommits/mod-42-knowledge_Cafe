@@ -14,7 +14,7 @@ const Blogs = ({handleAddToBookmark , handleSpentTime}) => {
     },[])
     return (
         <div className="w-2/3">
-            <p>Blogs Lenght = {blogs.length}</p>
+            <p className="text-3xl mb-4">Total Blogs = {blogs.length}</p>
             {
                 blogs.map( blog => <Blog key={blog.id} blog={blog} handleSpentTime={handleSpentTime} handleAddToBookmark={handleAddToBookmark}></Blog>)
             }
